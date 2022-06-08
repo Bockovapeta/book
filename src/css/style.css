@@ -58,6 +58,10 @@ body {
     width: 50%;
 }
 
+.main-image img {
+    width: 100%;
+}
+
 .subtitle {
     font-size: 20px;
     font-weight: 400;
@@ -229,4 +233,114 @@ body {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 7px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .btn {
+        display: inline-block;
+        max-width: 250px;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .main-image,
+    .main-text {
+        width: 100%;
+    }
+
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main-text {
+        order: 1;
+        margin-top: 40px;
+    }
+
+    .navbar {
+        margin-bottom: 100px;
+    }
+
+    .top-header {
+        padding-bottom: 100px;
+    }
+
+    .price {
+        margin-bottom: 30px;
+    }
+
+    .about-item {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .about-wrap {
+        flex-wrap: wrap;
+    }
+
+    .about {
+        padding: 60px 0 40px 0;
+    }
+
+
+    .people-foto img {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    .footer-block {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .footer-wrap {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+@media (max-width: 580px) {
+    .about-item {
+        width: 100%;
+    }
+
+    .people-foto img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .footer-block {
+        width: 100%;
+
+    }
+
+    .footer {
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .about-headline {
+        margin-bottom: 30px;
+    }
+
 }
