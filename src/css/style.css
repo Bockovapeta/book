@@ -1,9 +1,33 @@
+@font-face {
+    font-family: 'HelveticaNormal';
+    src: url('../fonts/HelveticaNormal.eot');
+    src: local('0'), url('../fonts/HelveticaNormal.woff') format('woff'),
+        url('../fonts/HelveticaNormal.ttf') format('truetype'),
+        url('../fonts/HelveticaNormal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../fonts/HelveticaBold.eot');
+    src: local('0'), url('../fonts/HelveticaBold.woff') format('woff'),
+        url('../fonts/HelveticaBold.ttf') format('truetype'),
+        url('../fonts/HelveticaBold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'HelveticaNormal';
 }
 
 .container {
@@ -27,6 +51,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'HelveticaBold';
 
 }
 
@@ -73,6 +98,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 25px;
+    font-family: 'HelveticaBold';
 }
 
 .desc {
@@ -107,6 +133,7 @@ body {
     box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
     border-radius: 6px;
     margin-right: 30px;
+    font-family: 'HelveticaBold';
 }
 
 .green {
@@ -135,6 +162,7 @@ body {
     font-weight: 700;
     margin-bottom: 100px;
     color: #32325f;
+    font-family: 'HelveticaBold';
 }
 
 .about-item span {
@@ -175,6 +203,7 @@ body {
     color: #32325f;
     display: block;
     margin-top: 15px;
+    font-family: 'HelveticaBold';
 }
 
 .people {
@@ -210,6 +239,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 7px;
+    font-family: 'HelveticaBold';
 }
 
 .footer-block {
@@ -226,6 +256,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 35px;
+    font-family: 'HelveticaBold';
 }
 
 .footer-name {
@@ -233,6 +264,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 7px;
+    font-family: 'HelveticaBold';
 }
 
 
